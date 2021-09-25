@@ -1,0 +1,769 @@
+all     done(40)   steal  nothing   extra
+         ***        ---      ===
+385      5          380       0         0
+427     `26         401       0        42
+427      52         375       0         0
+427      57         363       7         0
+427      76         331       20        0
+427     106         290       31        0
+451     106         303       18       24
+451     145         270       18       18
+525     191         311       23       74
+1013    373         584       56       488
+1368    411         904       53       355
+
+
+ready
+   views
+        slider blade
+        contact blade
+        identity html
+
+        ar
+        pages copy
+backend
+    admin
+        extra
+    seo
+        pages
+            login
+            dashboard
+            profile
+            slider
+        route
+            login
+            dashboard
+            profile
+            slider
+        controller construct middleware
+        config auth
+               guards
+                    providers
+                    models
+               seo-auth
+
+html test
+    top header          ***
+    header              ***
+    slider              ***
+    contact             ***
+    identity            ***
+    testimonials        ***
+    video               ---
+    tracking            ***
+    service             ***
+    Pros                ***
+    calculator          ***
+    page                ---
+    footer              ***
+ready
+    users               table   config   model  roles  auth  route   controllers   requests   layout  views
+        Site             ===     ===      ===    ===    ===    ***      ---          ---       ---     ---
+        Account          ***     ***      ***    ***    ***    ***      ---          ---       ---     ---
+        Shipper          ***     ***      ***    ***    ***    ***      ---          ---       ---     ---
+        SEO              ***     ***      ***    ***    ***    ***      ***          ***       ***     ***
+        Employee         ***     ***      ***    ***    ***    ***      ---          ---       ---     ---
+        Manger           ***     ***      ***    ***    ***    ***      ---          ---       ---     ---
+        Ceo              ***     ***      ***    ***    ***    ***      ---          ---       ---     ---
+        Admin            ***     ***      ***    ***    ***    ***      ***          ***       ---     ***
+    route
+        lang            ***
+        site            ***
+        account         ***
+        SHIPPER         ---
+        admin           ---
+        SEO             ---
+        manger          ---
+        CEO             ---
+    controller             methods      pages      extra   roles
+        site                ***          ---        ---     ---
+        account             ***          ---        ---     ---
+        SHIPPER             ---          ---        ---     ---
+        admin               ---          ---        ---     ---
+        SEO                 ---          ---        ---     ---
+        manger              ---          ---        ---     ---
+        CEO                 ---          ---        ---     ---
+
+    views                      html  blade  control       action  lang    ar     24X4=96 +  24x2=48   144
+        layout
+            fotter              ***    ***     ---          ---    ---    ***
+            header              ***    ***     ===          ===    ---    ***
+            top-header          ***    ***     ===          ===    ---    ***
+            site                ***    ***     ===          ===    ---    ***
+            account             ---    ---     ---          ---    ---    ---
+            SHIPPER             ---    ---     ---          ---    ---    ---
+            admin               ---    ---     ---          ---    ---    ---
+            SEO                 ***    ***     ***          ***    ***    ***
+            manger              ---    ---     ---          ---    ---    ---
+            CEO                 ---    ---     ---          ---    ---    ---
+        home
+            slider              ***    ***     ***          ===    ---    ***
+            contact             ***    ***     ***          ===    ---    ***
+            identity            ***    ***     ***          ***    ---    ***
+            tracking            ***    ***     ---          ---    ---    ***
+            service             ***    ***     ***          ***    ---    ***
+            Pros                ***    ***     ***          ===    ---    ***
+            calculator          ***    ***     ---          ---    ---    ---
+            testimonials        ***    ***     ***          ===    ---    ***
+            page                ---    ---     ---          ---    ---    ---
+            video               ***    ***     ***          ===    ---    ***
+        about
+            identity Profile    ***    ***    ***           ***    ---    ***
+            why us  Pros        ***    ***    ***           ***    ---    ***
+            page                ---    ---    ---           ---    ---    ---
+        service
+            all                 ***    ***    ***           ***     ---   ***
+            details             ***    ***    ***           ***     ***   ***
+            page                ---    ---    ---           ---     ---   ---
+        jobs
+             jobs               ***     ***   ***           ***     ---   ***
+             page               ---     ---   ---           ---     ---   ---
+             app                ---     ---   ---           ---     ---   ---
+        contact
+             info               ***    ***     ***          ***    ---    ***
+             form               ***    ***     ***          ***    ---    ***
+             page               ---    ---     ---          ---    ---    ---
+             app                ---    ---     ---          ---    ---    ---
+`       pricing
+`           pricing             ---    ---     ---          ---    ---    ---
+            page                ---    ---     ---          ---    ---    ---
+        use-policy              ---    ---     ---          ---    ---    ---
+   others                      html  blade  control       action  lang    ar   8x6 =48
+            calculator          ---    ---    ---           ---    ---    ---
+            account             ---    ---    ---           ---    ---    ---
+                my-profile      ---    ---    ---           ---    ---    ---
+                shipments       ---    ---    ---           ---    ---    ---
+                cheakout        ---    ---    ---           ---    ---    ---
+                cart            ---    ---    ---           ---    ---    ---
+                shipment        ---    ---    ---           ---    ---    ---
+                tracking        ---    ---    ---           ---    ---    ---
+
+backend
+    admin               table  crud   img   extra                                               12x4=48
+        Slider           ***    ***   ***    ---
+        Identity         ***    ***   ***    ===
+        Pros             ***    ***   ===    ***
+        Services         ***    ***   ***    ===
+        Jobs             ***    ***   ===    ===
+        Aplications      ***    ***   ===    ***
+        Testimonials     ***    ***   ***    ===
+        Social           ***    ***   ===    ***
+        Contact          ***    ***   ===    ***
+        Branshes         ***    ***   ===    ---
+        Packages         ***    ---   ===    ---
+        Page             ***    ***   ***    ---
+        system              table  crud  relation    ucrud  export    reports   extra   roles      9x8=72
+         *  Shipments        ***    ***     ***       ---     ---       ---      ---     ---
+         *  Roads            ***    ***     ***       ---     ---       ---      ---     ---
+         *  movements        ***    ***     ***       ---     ---       ---      ---     ---
+            movement_methods ***    ***     ***       ---     ---       ---      ---     ---
+            payment_methods  ***    ***     ***       ---     ---       ---      ---     ---
+         *  Places           ***    ***     ***       ---     ---       ---      ---     ---
+         *  branches         ***    ***     ***       ---     ---       ---      ---     ---
+         *  receivers        ***    ***     ***       ---     ---       ---      ---     ---
+         *  clients          ***    ***     ***       ---     ---       ---      ---     ---
+            Wallet           ***    ***     ***       ---     ---       ---      ---     ---
+         *  Withdrawal       ***    ***     ***       ---     ---       ---      ---     ---
+            site_options     ***    ***     ***       ---     ---       ---      ---     ---
+       users                table  crud   requst  relation extra
+        admin-user           ***    ***    ***      ===     ***
+        account-admin        ***    ***    ***      ***     ---
+        shipper-admin        ***    ***    ***      ***     ---
+        seo-admin            ***    ***    ***      ***     ---
+        employee-admin       ***    ***    ***      ***     ---
+        manger-admin         ***    ***    ***      ***     ---
+        agent-admin          ***    ---    ---      ***     ---
+        ceo-admin            ***    ***    ***      ***     ---
+users
+    guest
+    account
+       log                  route  controlar  pages  extra                                                  7x4=28
+            login            ---     ---       ---    ---
+            logout           ---     ---       ---    ---
+            password-reset   ---     ---       ---    ---
+            activation       ---     ---       ---    ---
+            home             ---     ---       ---    ---
+            layout           ---     ---       ---    ---
+            profile          ---     ---       ---    ---
+     system              table  crud  relation    ucrud  export    reports   extra   roles      9x8=72
+     *  Shipments        ***    ***     ---       ---     ---       ---      ---     ---
+     *  Roads            ***    ***     ---       ---     ---       ---      ---     ---
+        payment methods  ***    ***     ---       ---     ---       ---      ---     ---
+     *  Places           ***    ***     ---       ---     ---       ---      ---     ---
+     *  branches         ***    ***     ---       ---     ---       ---      ---     ---
+     *  receivers        ***    ***     ---       ---     ---       ---      ---     ---
+        Wallet           ***    ***     ---       ---     ---       ---      ---     ---
+     *  Withdrawal       ***    ***     ---       ---     ---       ---      ---     ---
+
+    shipper
+       log                  route  controlar  pages  extra                                                  7x4=28
+            login            ---     ---       ---    ---
+            logout           ---     ---       ---    ---
+            password-reset   ---     ---       ---    ---
+            activation       ---     ---       ---    ---
+            home             ---     ---       ---    ---
+            layout           ---     ---       ---    ---
+            profile          ---     ---       ---    ---
+     system             table  crud  relation    ucrud  export    reports   extra   roles      9x8=72
+     *  Shipments        ***    ***     ---       ---     ---       ---      ---     ---
+     *  Roads            ***    ***     ---       ---     ---       ---      ---     ---
+        payment methods  ***    ***     ---       ---     ---       ---      ---     ---
+     *  Places           ***    ***     ---       ---     ---       ---      ---     ---
+     *  branches         ***    ***     ---       ---     ---       ---      ---     ---
+     *  receivers       ***    ***     ---       ---     ---       ---      ---     ---
+        Wallet           ***    ***     ---       ---     ---       ---      ---     ---
+     *  Withdrawal       ***    ***     ---       ---     ---       ---      ---     ---
+    seo                     route  controlar  pages   extra                                                  12x4=48
+            login            ***     ***       ***    ***
+            logout           ***     ***       ***    ***
+            password-reset   ***     ***       ***    ***
+            activation       ***     ***       ***    ***
+            home             ***     ***       ***    ***
+            layout           ***     ***       ***    ***
+            profile          ***     ***       ***    ***
+            upload-media     ***     ***       ***    ---
+            wysiwyg-media    ---     ---       ---    ---
+            admin-user       ***     ***       ***    ***
+            Trans            ***     ***       ***    ***
+            Slider           ***     ***       ***    ***
+            Identity         ***     ***       ***    ***
+            Pros             ***     ***       ***    ***
+            Services         ***     ***       ***    ***
+            Jobs             ***     ***       ***    ***
+            Aplications      ***     ***       ***    ***
+            Testimonials     ***     ***       ***    ***
+            Social           ***     ***       ***    ***
+            Contact          ***     ***       ***    ***
+             Page            ***     ***       ***    ***
+
+    employee
+       log                  route  controlar  pages  extra                                                  7x4=28
+            login            ---     ---       ---    ---
+            logout           ---     ---       ---    ---
+            password-reset   ---     ---       ---    ---
+            activation       ---     ---       ---    ---
+            home             ---     ---       ---    ---
+            layout           ---     ---       ---    ---
+            profile          ---     ---       ---    ---
+        system               table  crud  relation    ucrud  export    reports   extra   roles      9x8=72
+         *  Shipments        ***    ***     ---       ---     ---       ---      ---     ---
+         *  Roads            ***    ***     ---       ---     ---       ---      ---     ---
+            payment methods  ***    ***     ---       ---     ---       ---      ---     ---
+         *  Places           ***    ***     ---       ---     ---       ---      ---     ---
+         *  branches         ***    ***     ---       ---     ---       ---      ---     ---
+         *  receivers       ***    ***     ---       ---     ---       ---      ---     ---
+         *  clients          ***    ***     ---       ---     ---       ---      ---     ---
+            Wallet           ***    ***     ---       ---     ---       ---      ---     ---
+         *  Withdrawal       ***    ***     ---       ---     ---       ---      ---     ---
+
+    manger
+        admin               table  crud   img   extra                                               12x4=48
+            login            ---    ---   ---    ---
+            logout           ---    ---   ---    ---
+            password-reset   ---    ---   ---    ---
+            activation       ---    ---   ---    ---
+            home             ---    ---   ---    ---
+            layout           ---    ---   ---    ---
+            profile          ---    ---   ---    ---
+            upload-media     ---    ---   ---    ---
+            wysiwyg-media    ---    ---   ---    ---
+            admin-user       ---    ---   ---    ---
+            Trans            ---    ---   ---    ---
+            Slider           ---    ---   ---    ---
+            Identity         ---    ---   ---    ===
+            Pros             ---    ---   ===    ---
+            Services         ---    ---   ---    ---
+            Jobs             ---    ---   ===    ===
+            Aplications      ---    ---   ===    ---
+            Testimonials     ---    ---   ---    ===
+            Social           ---    ---   ===    ---
+            Contact          ---    ---   ===    ---
+            Packages         ---    ---   ===    ---
+            Page             ---    ---   ---    ---
+        system              table  crud  relation    ucrud  export    reports   extra   roles      9x8=72
+         *  Shipments        ***    ***     ---       ---     ---       ---      ---     ---
+         *  Roads            ***    ***     ---       ---     ---       ---      ---     ---
+            payment methods  ***    ***     ---       ---     ---       ---      ---     ---
+         *  Places           ***    ***     ---       ---     ---       ---      ---     ---
+         *  branches         ***    ***     ---       ---     ---       ---      ---     ---
+         *  receivers       ***    ***     ---       ---     ---       ---      ---     ---
+         *  clients          ***    ***     ---       ---     ---       ---      ---     ---
+            Wallet           ***    ***     ---       ---     ---       ---      ---     ---
+         *  Withdrawal       ***    ***     ---       ---     ---       ---      ---     ---
+         users                 table  crud    img   extra
+          account-admins       ---     ---    ---    ---
+          shipper-admins       ---     ---    ---    ---
+          seo-admins           ---     ---    ---    ---
+          employee-admins      ---     ---    ---    ---
+    ceo
+        admin               table  crud   img   extra                                               12x4=48
+            login            ---    ---   ---    ---
+            logout           ---    ---   ---    ---
+            password-reset   ---    ---   ---    ---
+            activation       ---    ---   ---    ---
+            home             ---    ---   ---    ---
+            layout           ---    ---   ---    ---
+            profile          ---    ---   ---    ---
+            upload-media     ---    ---   ---    ---
+            wysiwyg-media    ---    ---   ---    ---
+            admin-user       ---    ---   ---    ---
+            Trans            ---    ---   ---    ---
+            Slider           ---    ---   ---    ---
+            Identity         ---    ---   ---    ===
+            Pros             ---    ---   ===    ---
+            Services         ---    ---   ---    ---
+            Jobs             ---    ---   ===    ===
+            Aplications      ---    ---   ===    ---
+            Testimonials     ---    ---   ---    ===
+            Social           ---    ---   ===    ---
+            Contact          ---    ---   ===    ---
+            Page             ---    ---   ---    ---
+        system              table  crud  relation    ucrud  export    reports   extra   roles      9x8=72
+         *  Shipments        ***    ***     ---       ---     ---       ---      ---     ---
+         *  Roads            ***    ***     ---       ---     ---       ---      ---     ---
+            payment methods  ***    ***     ---       ---     ---       ---      ---     ---
+         *  Places           ***    ***     ---       ---     ---       ---      ---     ---
+         *  branches         ***    ***     ---       ---     ---       ---      ---     ---
+         *  receivers       ***    ***     ---       ---     ---       ---      ---     ---
+         *  clients          ***    ***     ---       ---     ---       ---      ---     ---
+            Wallet           ***    ***     ---       ---     ---       ---      ---     ---
+         *  Withdrawal       ***    ***     ---       ---     ---       ---      ---     ---
+         users                 table  crud    img   extra
+          account-admins       ---     ---    ---    ---
+          shipper-admins       ---     ---    ---    ---
+          seo-admins           ---     ---    ---    ---
+          employee-admins      ---     ---    ---    ---
+          manger-admins        ---     ---    ---    ---
+    admin
+        admin               table  crud   img   extra                                               12x4=48
+            Slider           ***    ***   ***    ---
+            Identity         ***    ***   ***    ===
+            Pros             ***    ***   ===    ***
+            Services         ***    ***   ***    ===
+            Jobs             ***    ***   ===    ===
+            Aplications      ***    ***   ===    ***
+            Testimonials     ***    ***   ***    ===
+            Social           ***    ***   ===    ***
+            Contact          ***    ***   ===    ***
+             Page             ***    ***   ***    ---
+        system              table  crud  relation    ucrud  export    reports   extra   roles      9x8=72
+         *  Shipments        ***    ***     ***       ---     ---       ---      ---     ---
+         *  Roads            ***    ***     ***       ---     ---       ---      ---     ---
+         *  movements        ***    ***     ***       ---     ---       ---      ---     ---
+            movement_methods ***    ***     ***       ---     ---       ---      ---     ---
+            payment_methods  ***    ***     ***       ---     ---       ---      ---     ---
+         *  Places           ***    ***     ***       ---     ---       ---      ---     ---
+         *  branches         ***    ***     ***       ---     ---       ---      ---     ---
+         *  receivers        ***    ***     ***       ---     ---       ---      ---     ---
+         *  clients          ***    ***     ***       ---     ---       ---      ---     ---
+            Wallet           ***    ***     ***       ---     ---       ---      ---     ---
+         *  Withdrawal       ***    ***     ***       ---     ---       ---      ---     ---
+            site_options     ***    ***     ***       ---     ---       ---      ---     ---
+       users                table  crud   requst  relation extra
+        admin-user           ***    ***    ***      ===     ***
+        account-admin        ***    ***    ***      ***     ---
+        shipper-admin        ***    ***    ***      ***     ---
+        seo-admin            ***    ***    ***      ***     ---
+        employee-admin       ***    ***    ***      ***     ---
+        manger-admin         ***    ***    ***      ***     ---
+        agent-admin          ***    ---    ---      ***     ---
+        ceo-admin            ***    ***    ***      ***     ---
+1#2#3#4#
+admin-user
+account-admin  account-auth AccountAdmin account_admins \AccountAdmin
+shipper-admin  shipper-auth  ShipperAdmin shipper_admins \ShipperAdmin
+seo-admin   seo-auth   SeoAdmin seo_admins \SeoAdmin
+employee-admin   employee-auth EmployeeAdmin employee_admins \EmployeeAdmin
+manger-admin    manger-auth mangerAdmin manger_admins \MangerAdmin
+agent-admin    agent-auth agentAdmin agent_admins \AgentAdmin
+ceo-admin     ceo-auth CeoAdmin ceo_admins \CeoAdmin
+content
+    pages
+    lang
+my account
+       shipments
+            Accepted & Awaiting picking up
+            Picked Up from the sender
+            on its way
+            Picked up & Completed
+            Cancelled
+            Refunded
+            Failed
+       track
+       wallet & withdrawals
+       info edit
+       chenge password
+login
+    login
+    register
+    change password
+    roles
+forms
+    Careers
+    Track
+    Calcoulater
+    Subscribe
+    Contact
+
+email
+
+
+
+info
+    Phone
+    Phone2
+    Address
+    State
+    City
+
+
+
+
+Mahmoud Rizk <mahmoud.rizk@gmail.com>
+Sat, Jul 28, 2018, 5:14 PM
+to me
+
+
+Hostgator.com
+https://portal.hostgator.com/packages#RS-242118
+
+icua@taswek.com
+
+sm0VS7JVkwI1u9eS
+rgba(255, 255, 255, .2)
+rgba(255, 255, 255, .2)
+#DFDFE1
+#e61a4a
+#1A1A1A
+#1a1e20
+shipments
+    columns
+        count
+            $table->increments('id');
+            $table->integer('pkg_num');
+        road
+            $table->integer('road_id');
+            $table->integer('place_from_id');
+            $table->integer('branch_from_id');
+            $table->integer('place_to_id');
+            $table->integer('branch_to_id');
+        description
+            $table->float('weight');
+            $table->boolean('pickup');
+            $table->boolean('todoor');
+            $table->boolean('express');
+            $table->boolean('breakable');
+        account
+            $table->morphs('shipper');
+            $table->integer('receiver_id')->nullable();
+        order
+            $table->string('status');
+            $table->dateTime('published_at');
+            $table->dateTime('end_at');
+        price
+            $table->string('shipp_price');
+            $table->string('shipp_cost');
+            $table->string('shipp_sale');
+            $table->string('shipp_total');
+            $table->integer('payment_method_id')->nullable();
+        references
+            $table->foreign('road_id')->references('id')->on('roads')->onUpdate('cascade');
+            $table->foreign('place_from_id')->references('id')->on('places')->onUpdate('cascade');
+            $table->foreign('branch_from_id')->references('id')->on('branches')->onUpdate('cascade');
+            $table->foreign('place_to_id')->references('id')->on('places')->onUpdate('cascade');
+            $table->foreign('branch_to_id')->references('id')->on('branches')->onUpdate('cascade');
+            $table->foreign('shipper_id')->references('id')->on('account_admins')->onUpdate('cascade');
+            $table->foreign('shipper_id')->references('id')->on('shipper_admins')->onUpdate('cascade');
+            $table->foreign('shipper_id')->references('id')->on('employee_admins')->onUpdate('cascade');
+            $table->foreign('shipper_id')->references('id')->on('manger_admins')->onUpdate('cascade');
+            $table->foreign('shipper_id')->references('id')->on('agent_admins')->onUpdate('cascade');
+            $table->foreign('shipper_id')->references('id')->on('ceo_admins')->onUpdate('cascade');
+            $table->foreign('receiver_id')->references('id')->on('receivers')->onUpdate('cascade');
+            $table->foreign('payment_method_id')->references('id')->on('payment_methods')->onUpdate('cascade');
+            $table->timestamps();
+places
+     columns
+        $table->increments('id');
+        $table->string('name');
+        $table->boolean('enabled')->default(true);
+        $table->integer('parent_id')->nullable();
+        $table->integer('branch_id');
+     references
+        $table->foreign('parent_id')->references('id')->on('places')->onUpdate('cascade');
+        $table->foreign('branch_id')->references('id')->on('branches')->onUpdate('cascade');
+        $table->timestamps();
+roads
+    columns
+        $table->increments('id');
+        $table->float('price');
+        $table->float('time');
+        $table->boolean('enabled')->default(true);
+        $table->boolean('pickup')->default(true);
+        $table->boolean('todoor')->default(true);
+        $table->boolean('express')->default(true);
+        $table->boolean('breakable')->default(true);
+        $table->integer('from_id');
+        $table->integer('to_id');
+    references
+        $table->foreign('from_id')->references('id')->on('places')->onUpdate('cascade');
+        $table->foreign('to_id')->references('id')->on('places')->onUpdate('cascade');
+        $table->timestamps();
+
+
+movements
+    columns
+        $table->increments('id');
+        $table->string('reason')->nullable();
+        $table->integer('shipment_id');
+        $table->integer('method_id');
+        $table->morphs('employee');
+        $table->integer('branch_id');
+        $table->integer('method_parent_id')->nullable();
+    references
+        $table->foreign('shipment_id')->references('id')->on('shipments')->onUpdate('cascade');
+        $table->foreign('method_id')->references('id')->on('movement_methods')->onUpdate('cascade');
+        $table->foreign('employee_id')->references('id')->on('employee_admins')->onUpdate('cascade');
+        $table->foreign('employee_id')->references('id')->on('manger_admins')->onUpdate('cascade');
+        $table->foreign('employee_id')->references('id')->on('agent_admins')->onUpdate('cascade');
+        $table->foreign('employee_id')->references('id')->on('ceo_admins')->onUpdate('cascade');
+        $table->foreign('branch_id')->references('id')->on('branches')->onUpdate('cascade');
+        $table->foreign('method_parent_id')->references('id')->on('movement_methods')->onUpdate('cascade');
+        $table->timestamps();
+movement_methods
+    columns
+        $table->increments('id');
+        $table->jsonb('method');
+        $table->integer('parent_id')->nullable();
+    references
+        $table->foreign('parent_id')->references('id')->on('movement_methods')->onUpdate('cascade');
+payment_methods
+    columns
+        $table->increments('id');
+        $table->jsonb('name');
+        $table->float('fees')->default(0.0);
+        $table->float('sale')->default(0.0);
+        $table->boolean('enabled')->default(true);
+        $table->timestamps();
+wallets
+    columns
+         $table->increments('id');
+         $table->float('money')->default(0.0);
+         $table->morphs('belongs_to');
+         $table->timestamps();
+    references
+          $table->foreign('belongs_to_id')->references('id')->on('branches')->onUpdate('cascade');
+          $table->foreign('belongs_to_id')->references('id')->on('account_admins')->onUpdate('cascade');
+          $table->foreign('belongs_to_id')->references('id')->on('shipper_admins')->onUpdate('cascade');
+withdrawals
+    columns
+         $table->increments('id');
+         $table->float('price');
+         $table->morphs('reason');
+         $table->morphs('made');
+         $table->boolean('in_out');
+         $table->boolean('enabled')->default(true);
+         $table->integer('from_id');
+         $table->integer('to_id');
+         $table->integer('payment_method_id');
+    references
+         $table->foreign('payment_method_id')->references('id')->on('payment_methods')->onUpdate('cascade');
+         $table->foreign('made_id')->references('id')->on('account_admins')->onUpdate('cascade');
+         $table->foreign('made_id')->references('id')->on('shipper_admins')->onUpdate('cascade');
+         $table->foreign('made_id')->references('id')->on('employee_admins')->onUpdate('cascade');
+         $table->foreign('made_id')->references('id')->on('manger_admins')->onUpdate('cascade');
+         $table->foreign('made_id')->references('id')->on('agent_admins')->onUpdate('cascade');
+         $table->foreign('made_id')->references('id')->on('ceo_admins')->onUpdate('cascade');
+         $table->foreign('from_id')->references('id')->on('wallets')->onUpdate('cascade');
+         $table->foreign('to_id')->references('id')->on('wallets')->onUpdate('cascade');
+         $table->timestamps();
+branches
+    columns
+         $table->increments('id');
+         $table->string('location')->nullable();
+         $table->float('lng')->nullable();
+         $table->float('lat')->nullable();
+         $table->jsonb('name');
+         $table->jsonb('governorate');
+         $table->boolean('is_published')->default(true);
+         $table->integer('manger');
+         $table->integer('agent')->nullable();
+    references
+         $table->foreign('manger')->references('id')->on('manger_admins')->onUpdate('cascade');
+         $table->foreign('agent')->references('id')->on('agent_admins')->onUpdate('cascade');
+         $table->timestamps();
+receivers
+    columns
+         $table->increments('id');
+         $table->string('fullname');
+         $table->string('address');
+         $table->string('phone');
+         $table->string('phone_2')->nullable();
+         $table->string('city');
+         $table->string('area');
+         $table->string('location')->nullable();
+         $table->float('lng')->nullable();
+         $table->float('lat')->nullable();
+         $table->string('governorate');
+         $table->timestamps();
+site option
+    columns
+          $table->float('weight_default')->default(3.0);
+          $table->float('weight_fee')->default(0.0);
+          $table->boolean('pickup')->default(true);
+          $table->float('pickup_fee')->default(0.0);
+          $table->boolean('todoor')->default(true);
+          $table->float('todoor_fee')->default(0.0);
+          $table->boolean('express')->default(true);
+          $table->float('express_fee')->default(0.0);
+          $table->boolean('breakable')->default(true);
+          $table->float('breakable_fee')->default(0.0);
+          $table->timestamps();
+
+employee_branches
+    columns
+        $table->unsignedInteger('employee_id');
+        $table->foreign('employee_id')->references('id')->on('employee_admins')->onDelete('cascade');
+        $table->unsignedInteger('branch_id');
+        $table->foreign('branch_id')->references('id')->on('branches')->onDelete('cascade');
+agent
+account-admin   account-auth AccountAdmin account_admins \AccountAdmin
+  shipper
+  withdrawal_made
+  movements
+  wallets
+shipper-admin   shipper-auth ShipperAdmin shipper_admins \ShipperAdmin
+  shipper
+  withdrawal_made
+  movements
+  wallets
+employee-admin   employee-auth EmployeeAdmin employee_admins \EmployeeAdmin
+  branches
+  shipper
+  withdrawal_made
+  movements
+  wallets
+manger-admin    manger-auth mangerAdmin manger_admins \MangerAdmin
+   branches
+  shipper
+  withdrawal_made
+  movements
+  wallets
+agent-admin     agent-auth AgentAdmin ceo_admins \AgentAdmin
+  branches
+  shipper
+  withdrawal_made
+  movements
+  wallets
+ceo-admin     ceo-auth CeoAdmin ceo_admins \CeoAdmin
+  branches
+  shipper
+  withdrawal_made
+  movements
+  wallets
+
+relation
+    one or many => one
+        shipments
+            shipments => road
+            shipments => place_from
+            shipments => branch_from
+            shipments => place_to
+            shipments => branch_to
+            shipments => receiver
+            shipments => payment_method
+        places
+            places => parent
+            places => branch
+        roads
+            roads => place_from
+            roads => place_to
+            roads => branch_from +++
+            roads => branch_to  +++
+        movements
+            movements => shipment
+            movements => movement_method
+            movements => branch
+            movements => method_parent
+        movement_methods
+            movement_methods => parent
+        withdrawals
+            withdrawals => payment_methods
+            withdrawals => wallet_from
+            withdrawals => wallet_to
+
+        branches one
+             branch=> manger
+             branch => agent
+        receiver
+    one => one or many
+        shipments
+            shipment => movements
+        places
+            delivery => shipments
+            reception => shipments
+            places => children
+            start => roads
+            end => roads
+        roads
+            road => shipments
+        movements
+        movement_methods
+            movement_methods => children
+            movement_method => movements
+        withdrawals
+        wallets
+            wallet=>pays
+            wallet=>receives
+        branches one
+            delivery => shipments
+            reception => shipments
+            branch => places
+            branch => roads
+            branch => movements
+        receiver
+            receiver => shipments
+    morphs => many
+        shipments
+            shipments => shipper
+             reason => shipping
+        withdrawals
+            withdrawals => made
+            withdrawals => reason
+        wallets
+            wallets => belongs_to
+        branches
+            branch => wallets
+        movements
+            movements => employee
+    morphs => one
+    many => many
+         movement_methods => shipments
+         shipments => movement_methods
+         shipments => movement_parents
+         employee => branches
+         branch => employees
+
+requested
+called
+    will pickup
+    will receive
+    canceled before
+    payed before
+pickup
+    payed before
+    payed part
+    on way to branch
+    received in branch
+    out from branch
+on road
+in bransh
+    wait receiver
+    shipping to receiver
+    canceled after
+received
+     done
+     payed after
+     payed all
+     back
+
+
